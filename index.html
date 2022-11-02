@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>CSS day 1</title>
+</head>
+<style>
+    .internal{
+        color: blueviolet;
+    }
+</style>
+<body>
+ <h2 style="color: blue; text-decoration:underline;">CSS Day1 Interview Preparation</h2>   
+    <pre style="font-size:15px;">
+<h3>1. Difference between flex row and column<h3>
+Ans:- flex direction: row; is same as text direction (default),shows horizontally 
+      whereas, flex-direction:column; shows vertically . 
+    </pre>
+    <h2>Flex Row (default)</h2>  
+    <div class="flex-container">
+        <div>Flex1</div>
+        <div>Flex2</div>
+        <div>Flex3</div>  
+      </div>
+    <h2>Flex Column</h2>  
+    <div class="flex-container container">
+        <div>Flex1</div>
+        <div>Flex2</div>
+        <div>Flex3</div>  
+      </div>
+<br>
+<pre style="font-size: 15px;">
+<h3>2. Explain inline , internal and external stylesheet<h3>
+Ans:- Inline stylesheet can be applied on a single element.
+    To use inline styles,style attribute needs to be added.
+    <p style="color:red;">This is a paragraph (Inline stylesheet).</p>  
+   - Internal stylesheet is used if one single HTML page has a unique style. 
+     The internal style is defined the style element, inside the head section. 
+    <p class="internal">This is paragraph (Internal Stylesheet)</p>
+   -With an external style sheet,We can change the look of an entire website by changing just one file.
+    Each HTML page must include a reference to the external style sheet file inside the link element, inside the head section. 
+    <p class="ex">This is an external Css</p>
+</pre>      
+
+<pre style="font-size:15px;">
+    <h3>3. Justify content allows you to do what?<h3>
+Ans:- Justify content allows you to give spaces between flex boxes.
+      Justify-content can be start,center, space-between,space-around, space-evenly.
+        </pre>
+        <div id="main">
+            <div style="background-color:coral;">1</div>
+            <div style="background-color:lightblue;">2</div>
+            <div style="background-color:pink;">3</div>
+          </div>
+<br>
+<pre style="font-size: 15px;">
+<h3>4. Difference between absolute and relative positioning .</h3>
+
+Ans:-Position relative is relative to its parent.
+     Position absolute is relative to its viewport or webpage
+
+ <div class="relative">
+    <p>This is realtive</p>
+ </div>
+ <div class="absolute">
+    <p>This is absolute</p>
+ </div>
+</pre> 
+<br>
+<pre style="font-size: 15px;">
+<h3>5. What is grid-template-columns used for?</h3>
+
+Ans:- The grid-template-columns property specifies the number and widths of columns in a grid layout.
+
+<div class="grid-container">
+    <div class="item1">1</div>
+    <div class="item2">2</div>
+    <div class="item3">3</div>
+    <div class="item4">4</div>
+    <div class="item5">5</div>
+    <div class="item6">6</div>
+    <div class="item7">7</div>
+    <div class="item8">8</div>
+</div>
+</pre>
+
+<pre>
+    <h3>6. What is the z-index in CSS?</h3>
+   
+Ans:- The z-index property specifies the stack order of an element. Z-index only works on positioned element.   
+
+<div class="index">
+    <div class="index1">1</div>
+    <div class="index2">2</div>
+</div>
+</pre>
+<br><br><br><br><br><br><br><br>
+<pre style="font-size: 15px;">
+<h3>7. What is the difference between padding and margin?</h3> 
+
+Ans:- In CSS, padding is used to give space inside border.
+      Margin is used to give space outside the border.
+
+<div class="mar_pad">Margin and padding</div>      
+</pre>
+</body>
+</html>
